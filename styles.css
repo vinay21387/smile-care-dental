@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f9f5f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe8d6;
+}
+
+.logo h1 {
+    color: #f28b2b;
+    font-size: 24px;
+}
+
+.smile {
+    color: #8dc9a0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.appointment {
+    background-color: #f28b2b;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.help {
+    background-color: #fff;
+    color: #f28b2b;
+    border: 2px solid #f28b2b;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #ffffff;
+}
+
+.content h2 {
+    font-size: 40px;
+    color: #333;
+}
+
+.content h2 span {
+    color: #f28b2b;
+}
+
+.content p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+}
+
+.book-now {
+    background-color: #f28b2b;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.footer-logos img {
+    width: 100px;
+    height: auto;
+}
